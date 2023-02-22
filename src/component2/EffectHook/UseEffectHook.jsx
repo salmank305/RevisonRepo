@@ -41,6 +41,11 @@ export const UseEffectHook = () => {
     console.log("running use effect 3",count1);
   },[count1]);
 
+  useEffect(() => {
+    // fetch('https://someApi.com')
+    console.log("running use effect 4",count1,count2);
+  },[count1,count2]);
+
   return (
     <>
       <div>UseEffectHook</div>
