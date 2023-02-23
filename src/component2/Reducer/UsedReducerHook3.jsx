@@ -1,3 +1,4 @@
+
 import React, { useReducer, useState } from "react";
 export const UsedReducerHook3 = () => {
   const [number1, setNumber1] = useState(0);
@@ -25,8 +26,8 @@ export const UsedReducerHook3 = () => {
   }
   const [number2, dispatchNumber2] = useReducer(reducer, 0);
   return (
-    <>
-      <div className="app">UsedReducerHook3</div>
+    <div style={{textAlign:"center"}}>
+      <div style={{backgroundColor:"red",color:'white'}} >UsedReducerHook3</div>
       <div>Number1 :{number1}</div>
       <button onClick={() => setNumber1(number1 + 5)}>+no1</button>
       <button onClick={addNoTreeTimes}>+no3</button>
@@ -35,6 +36,6 @@ export const UsedReducerHook3 = () => {
       <button onClick={() => dispatchNumber2("add")}>+no2</button>
       <button onClick={addNoTreeTimesForDis}>+no 3 time for dis</button>
       <br />
-    </>
+    </div>
   );
 };

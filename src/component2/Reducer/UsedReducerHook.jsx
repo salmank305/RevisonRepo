@@ -43,7 +43,7 @@ export const UsedReducerHook = () => {
   const [number, dispatchNumber] = useReducer(reducerFunction, initialValue);
   return (
     <>
-      <div>UsedReducerHook</div>
+      <div >UsedReducerHook</div>
       <div>number:{number}</div>
       <button onClick={() => dispatchNumber("add")}>UR+</button>
       <button onClick={() => dispatchNumber("sub")}>UR-</button>

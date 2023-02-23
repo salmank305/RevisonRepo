@@ -52,7 +52,7 @@ export const App2 = () => {
 
       {/* <FormExample1 /> */}
 
-      {/* <SignUpForm/> */}
+      <SignUpForm/>
 
       {/* <FormExample2/> */}
 
@@ -67,7 +67,7 @@ export const App2 = () => {
 
       {/* <UsedReducerHook2/> */}
 
-      <UsedReducerHook3/>
+      {/* <UsedReducerHook3/> */}
     </>
   );
 };
